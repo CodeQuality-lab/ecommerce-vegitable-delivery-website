@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0fff0;
+    color: #333;
+}
+
+header {
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: #c8facc;
+    padding: 40px;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 10px;
+    color: #2e7d32;
+}
+
+.products {
+    padding: 40px;
+    text-align: center;
+}
+
+.products h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 100, 0, 0.2);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+footer {
+    background-color: #228B22;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.div-sec{
+    font-size: 50px;
+}
+.img-sec img{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    right: 35%;
+    height: 600px;
+    display: inline-block;
+    background-size: cover;
+}
+.txt-edit{
+    
+    
+}
+.text-edit{
+    display: inline;
+    position: relative;
+    top: 20%;
+    font-size: 60px;
+    
+}
